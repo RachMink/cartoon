@@ -48,8 +48,9 @@ function init(){
   }
 
   //Caption Text
+  ctx.fillStyle="black";
   ctx.font = "30px Arial";
-  ctx.strokeText("Let's Go to Mars", 500, 50);
+  ctx.fillText("Let's Go to Mars", 500, 50);
 
   //iceberg
   ctx.fillStyle = "#f79f57";
